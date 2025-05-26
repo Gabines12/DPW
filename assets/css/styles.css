@@ -82,3 +82,13 @@
   .footer-general .row {
     margin-top: 20px;
   }
+
+  header {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .img-servicio {
+  max-width: 250px;
+  height: auto;
+}

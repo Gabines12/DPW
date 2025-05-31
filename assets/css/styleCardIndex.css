@@ -1,0 +1,23 @@
+.swiper {
+  padding: 45px 0;
+}
+
+.swiper-slide {
+  width: auto;
+}
+
+.card {
+  width: 300px;
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+
+.titulo-seccion {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}

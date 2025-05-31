@@ -167,25 +167,7 @@
   }
 
 
-  /* Para que el body ocupe toda la altura del viewport */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Hace que el body se comporte como una columna flexible */
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* El contenido principal toma el espacio restante */
-  main {
-    flex: 1;
-  }
-
+ 
   .collage-container {
     max-width: 1200px;
     margin: 0 auto;

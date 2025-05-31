@@ -1,5 +1,15 @@
   .navbar {
-    background-color: #b5b5fd;
+    background-color: #332D56;
+  }
+
+  .navbar .nabvar-logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.4s;
+  }
+
+  .navbar .navbar-logo img:hover {
+    transform: scale(1.2);
   }
 
   .navbar .navbar-brand {
@@ -13,10 +23,17 @@
 
   .navbar .nav-link {
     color: white;
+    transition: all 0.4s;
   }
 
   .navbar .nav-link:hover {
-    color: #000;
+    color: #E3EEB2;
+    transform: scale(1.2);
+  }
+
+  .navbar .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
   }
 
   .map-container {
@@ -139,7 +156,7 @@
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
-    background-color: #b5b5fd;
+    background-color: #332D56;
   }
 
   .footer-general a {
@@ -234,6 +251,10 @@
     height: 380px !important;
   }
 
+  .custom-body-bg {
+    background-color: #A4CCD9;
+  }
+
   /* Variación de alturas para diseño más dinámico */
   .photo-item.tall {
     height: 395px;
@@ -273,6 +294,33 @@
   .photo-item:nth-child(6) {
     animation-delay: 0.6s;
   }
+
+  /* AGREGACIONES */
+
+  .tarjetaCarrusel{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 0.4 ease 0s;
+  }
+  .tarjetaCarrusel:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+  }
+
+.btn-primary {
+    background-color: #8DBCC7 !important; /* Cambia este color por el que desees */
+    border-color: #332D56 !important;
+}
+
+.btn-primary:hover {
+    background-color: #4E6688 !important;
+    border-color: #332D56 !important;
+}
+
+.btn-center{
+  display: block !important;
+  width: fit-content !important;
+  margin: 0 auto !important;
+}
 
   @keyframes fadeInUp {
     to {

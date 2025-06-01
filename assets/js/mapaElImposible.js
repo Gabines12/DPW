@@ -5,6 +5,51 @@ window.initMap = function () {
   // Configura aquí todos los mapas que tendrás en el sitio
   const mapas = [
     {
+      id: 'mapConchagua',
+      coords: { lat: 13.305078934719747, lng: -87.86603987815144 },
+      titulo: 'La Unión'
+    },
+    {
+      id: 'mapZacatillo',
+      coords: { lat: 13.305543131513184, lng: -87.75936846715612 },
+      titulo: 'Isla Zacatillo'
+    },
+    {
+      id: 'mapEspiritu',
+      coords: { lat: 13.274912006460136, lng: -87.83882322883606 },
+      titulo: 'Espiritu de la Montana'
+    },
+    {
+      id: 'mapSumpul',
+      coords: { lat: 14.056195629743208, lng: -88.81377953410981 },
+      titulo: 'Rio Sumpul'
+    },
+    {
+      id: 'maplaPuntona',
+      coords: { lat: 14.073817571276429, lng: -89.07454053731445 },
+      titulo: 'La Puntona'
+    },
+    {
+      id: 'mapelPital',
+      coords: { lat: 13.9662207183076, lng: -88.98091076058991 },
+      titulo: 'Cerro El Pital'
+    },
+    {
+      id: 'mapPlayaEspino',
+      coords: { lat: 13.170575808515427, lng: -88.29416629453432 },
+      titulo: 'Playa El Espino'
+    },
+    {
+      id: 'mapLagoAlegria',
+      coords: { lat: 13.492834440173564, lng: -88.49369989565436 },
+      titulo: 'Lago de Alegria'
+    },
+    {
+      id: 'mapMiradorCristal',
+      coords: { lat: 13.507361980191124, lng: -88.4837020822086 },
+      titulo: 'Mirador Cristal'
+    },
+    {
       id: 'mapTermales',
       coords: { lat: 13.902625748654533, lng: -89.8190279137476 },
       titulo: 'Termales'

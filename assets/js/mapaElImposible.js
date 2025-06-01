@@ -60,10 +60,56 @@ window.initMap = function () {
       titulo: 'Puerta del diablo'
     },
     {
+      id: 'mapCerroPavas',
+      coords: { lat: 13.718334100308375, lng: -88.95008583068385 },
+      titulo: 'Cerro de Las Pavas'
+    },
+    {
+      id: 'mapLagoSuchitlan',
+      coords: { lat: 13.94705718880821, lng: -89.01613891225243 },
+      titulo: 'Lago Suchitlán'
+    },
+    {
+      id: 'mapSuchitoto',
+      coords: { lat: 13.931941890938441, lng: -89.02683155606523 },
+      titulo: 'Suchitoto'
+    },
+    {
+      id: 'mapIlobasco',
+      coords: { lat: 13.836067529028007, lng: -88.85084542262138 },
+      titulo: 'Ilobasco'
+    },
+    {
+      id: 'mapCinquera',
+      coords: { lat: 13.884290347775265, lng: -88.96399341532012 },
+      titulo: 'Bosque de Cinquera'
+    },
+    {
+      id: 'mapPintada',
+      coords: { lat: 13.789878637349796, lng: -88.70318181877732 },
+      titulo: 'La Pintada'
+    },
+    {
+      id: 'mapChinchontepec',
+      coords: { lat: 13.59282396623236, lng: -88.84835600919907 },
+      titulo: 'Volcán de San Vicente'
+    },
+    {
+      id: 'mapAmapulapa',
+      coords: { lat: 13.628058658128007, lng: -88.77482056684349 },
+      titulo: 'Balneario Amapulapa'
+    },
+    {
+      id: 'mapElPilar',
+      coords: { lat: 13.643212539490616, lng: -88.78517488130738 },
+      titulo: 'Iglesia El Pilar y Parque Central'
+    },
+    {
       id: 'map',                            
       coords: { lat: 13.833381568986654, lng: -89.93468826243083 },
       titulo: 'Mapa genérico'
     }
+    
   ];
 
   mapas.forEach(({ id, coords, titulo }) => {

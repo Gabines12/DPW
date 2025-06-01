@@ -61,7 +61,7 @@ window.initMap = function () {
     },
     {
       id: 'mapCerroPavas',
-      coords: { lat: 13.718334100308375, lng: -88.95008583068385 },
+      coords: { lat: 13.717583445878573, lng: -88.9499142522542 },
       titulo: 'Cerro de Las Pavas'
     },
     {

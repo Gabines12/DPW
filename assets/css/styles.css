@@ -304,6 +304,10 @@
   margin: 0 auto !important;
 }
 
+.bgicon {
+  background-color: #4E6688 !important;
+}
+
   @keyframes fadeInUp {
     to {
       opacity: 1;

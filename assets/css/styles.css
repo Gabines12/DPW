@@ -323,3 +323,16 @@
       height: 200px;
     }
   }
+
+  .p1{
+    text-align: justify;
+    font-size: 20px;
+  }
+
+    .custom-table td,
+    .custom-table th {
+      vertical-align: middle !important;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }

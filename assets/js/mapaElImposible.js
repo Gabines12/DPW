@@ -11,8 +11,13 @@ window.initMap = function () {
     },
     {
       id: 'mapElImposible',
-      coords: { lat: 13.874579769318002, lng: -89.92086414211919 },
+      coords: { lat: 13.874579769318002, lng: -89.79937121782521 },
       titulo: 'Parque Nacional El Imposible'
+    },
+    {
+      id: 'mapMalacatiupan',
+      coords: { lat: 13.996761951125563, lng: -89.92086414211919 },
+      titulo: 'Salto de Malacatiupan'
     },
     {
       id: 'mapSurfCity',

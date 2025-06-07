@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    <!--Barra de navegacion con js-->
     <script src="/assets/js/navbar-loader.js"></script>
 
     <section class="container my-3 px-3">
@@ -40,7 +39,7 @@
                                     <img src="/assets/img/Sonsonate/rf2.jpg" alt="Ruta de las Flores">
                                 </div>
                             </div>
-            
+
                             <div class="col-6">
                                 <div class="photo-item short">
                                     <img src="/assets/img/Servicios/Transporte_basico.jpeg" alt="Ruta de las Flores">
@@ -65,10 +64,13 @@
             <article class="mb-1">
                 <h2 class="mb-1">Descripción general</h2>
                 <p>
-                    Disfruta de una introducción accesible y emocionante a los tesoros turísticos de El Salvador. Este plan está diseñado
-                    para viajeros que desean conocer lo esencial del país en un solo día, con una experiencia sencilla pero enriquecedora.
-                    Visita sitios emblemáticos como el Volcán de San Salvador, el Lago de Coatepeque o la Ruta de las Flores, acompañado por
-                    un guía que compartirá datos interesantes sobre la cultura, historia ynaturaleza del país.                
+                    Disfruta de una introducción accesible y emocionante a los tesoros turísticos de El Salvador. Este
+                    plan está diseñado
+                    para viajeros que desean conocer lo esencial del país en un solo día, con una experiencia sencilla
+                    pero enriquecedora.
+                    Visita sitios emblemáticos como el Volcán de San Salvador, el Lago de Coatepeque o la Ruta de las
+                    Flores, acompañado por
+                    un guía que compartirá datos interesantes sobre la cultura, historia ynaturaleza del país.
                 </p>
             </article>
 
@@ -89,20 +91,22 @@
                     <li>Recomendado para grupos pequeños o viajeros individuales.</li>
                     <li>No incluye alimentación.</li>
                 </ul>
-            </article>  
-            
+            </article>
+
             <article class="mb-2">
                 <h2 class="mb-2">Política de cancelación</h2>
                 <p>
-                    Las cancelaciones deben realizarse al menos 48 horas antes de la fecha del tour para obtener un reembolso completo.
-                    Cancelaciones realizadas con menos de 48 horas de anticipación no aplican para reembolso. En caso de no presentarse (no
-                    show), no se realizará devolución.                
+                    Las cancelaciones deben realizarse al menos 48 horas antes de la fecha del tour para obtener un
+                    reembolso completo.
+                    Cancelaciones realizadas con menos de 48 horas de anticipación no aplican para reembolso. En caso de
+                    no presentarse (no
+                    show), no se realizará devolución.
                 </p>
             </article>
 
             <div class="text-center my-4">
-                <button id="btnComprar" class="btn btn-primary btn-lg">Comprar</button>        
-            </div> 
+                <button id="btnComprar" class="btn btn-primary btn-lg">Comprar</button>
+            </div>
             <div id="formularioCompra" style="display: none;">
                 <form id="formularioCompraForm" class="form-container">
                     <!-- Plan fijo -->
@@ -110,24 +114,26 @@
                         <label class="form-label">Plan seleccionado:</label>
                         <input type="text" class="form-control" value="Plan Básico – 1 día" readonly>
                     </div>
-                
+
                     <!-- Datos personales -->
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre completo:</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Juan Pérez">
+                        <input type="text" id="nombre" name="nombre" class="form-control" required
+                            placeholder="Juan Pérez">
                     </div>
-                
+
                     <div class="mb-3">
                         <label for="correo" class="form-label">Correo electrónico:</label>
-                        <input type="email" id="correo" name="correo" class="form-control" required placeholder="ejemplo@correo.com">
+                        <input type="email" id="correo" name="correo" class="form-control" required
+                            placeholder="ejemplo@correo.com">
                     </div>
-                
+
                     <div class="mb-3">
                         <label for="telefono" class="form-label">Teléfono:</label>
                         <input type="tel" id="telefono" name="telefono" class="form-control" required pattern="[0-9]{8}"
                             placeholder="71700359">
                     </div>
-                
+
                     <!-- Selección de destino -->
                     <div class="mb-3">
                         <label for="departamento" class="form-label">Departamento:</label>
@@ -149,14 +155,14 @@
                             <option value="Usulután">Usulután</option>
                         </select>
                     </div>
-                
+
                     <div class="mb-3">
                         <label for="sitio" class="form-label">Sitio turístico:</label>
                         <select id="sitio" class="form-select" required>
                             <option value="">Seleccione un sitio turístico</option>
                         </select>
                     </div>
-                
+
                     <!-- Tipo de tarjeta -->
                     <div class="mb-3">
                         <label for="tarjeta" class="form-label">Tipo de tarjeta:</label>
@@ -167,30 +173,32 @@
                             <option value="amex">American Express</option>
                         </select>
                     </div>
-                
+
                     <!-- Campos que aparecen dinámicamente -->
                     <div id="datos-tarjeta" style="display: none;">
                         <div class="mb-3">
                             <label for="numero-tarjeta" class="form-label">Número de tarjeta:</label>
-                            <input type="text" id="numero-tarjeta" name="numero-tarjeta" class="form-control" title="Ingrese entre 13 y 16 dígitos sin espacios"  pattern="[0-9]{13,16}"
+                            <input type="text" id="numero-tarjeta" name="numero-tarjeta" class="form-control"
+                                title="Ingrese entre 13 y 16 dígitos sin espacios" pattern="[0-9]{13,16}"
                                 placeholder="1234 5678 9012 3456">
                         </div>
                         <div class="mb-3">
                             <label for="vencimiento" class="form-label">Fecha de vencimiento:</label>
-                            <input type="month" id="vencimiento" name="vencimiento" class="form-control" >
+                            <input type="month" id="vencimiento" name="vencimiento" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label for="cvv" class="form-label">Código de seguridad (CVV):</label>
-                            <input type="text" id="cvv" name="cvv" class="form-control"  pattern="[0-9]{3,4}" placeholder="123">
+                            <input type="text" id="cvv" name="cvv" class="form-control" pattern="[0-9]{3,4}"
+                                placeholder="123">
                         </div>
                     </div>
-                
+
                     <!-- Precio fijo -->
                     <div class="mb-3">
                         <label for="total" class="form-label">Total a pagar:</label>
                         <input type="text" id="total" name="total" class="form-control" value="$40.00" readonly>
                     </div>
-                
+
                     <div class="text-end">
                         <button type="submit" class="btn btn-success">Confirmar compra</button>
                     </div>
@@ -199,27 +207,12 @@
                     ¡Pago realizado con éxito! Gracias por su compra.
                 </div>
             </div>
-            
+
         </section>
     </main>
 
 
-    <footer class="footer-general text-center">
-        <p>&copy; 2025 VACIL. Todos los derechos reservados.</p>
-        <nav>
-            <a href="#">Inicio</a> |
-            <a href="#">Contacto</a> |
-            <a href="#">Política de Privacidad</a>
-        </nav>
-        <div class="row">
-            <div class="col-my-5 text-center">
-                <a href="https://www.facebook.com/"><img src="/assets/img/facebook.png" alt="Facebook" width="25px"></a>
-                <a href="https://x.com/?lang=es"><img src="/assets/img/gorjeo.png" alt="Twitter" width="25px"></a>
-                <a href="https://www.instagram.com/"><img src="/assets/img/instagram.png" alt="Instagram"
-                        width="25px"></a>
-            </div>
-        </div>
-    </footer>
+    <script src="/assets/js/footer-loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/collage.js"></script>
     <script src="/assets/js/formulario.js"></script>

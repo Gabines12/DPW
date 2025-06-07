@@ -61,7 +61,7 @@ window.initMap = function () {
     },
     {
       id: 'mapMalacatiupan',
-      coords: { lat: 13.996761951125563, lng: -89.92086414211919 },
+      coords: { lat: 13.996819221293453, lng: -89.79936048465574 },
       titulo: 'Salto de Malacatiupan'
     },
     {

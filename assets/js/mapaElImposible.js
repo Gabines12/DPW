@@ -158,6 +158,51 @@ window.initMap = function () {
       id: 'map',                            
       coords: { lat: 13.833381568986654, lng: -89.93468826243083 },
       titulo: 'Mapa genérico'
+    },
+    {
+      id: 'mapCostaSol',
+      coords: { lat: 13.344322136438063, lng: -89.00611851976205 },
+      titulo: 'Costa del Sol'
+    },
+    {
+      id: 'mapJaltepeque',
+      coords: { lat: 13.301981221117883, lng: -88.8806709714215 },
+      titulo: 'Estero Jaltepeque'
+    },
+    {
+      id: 'mapSanPedro',
+      coords: { lat: 13.602050318261767, lng: -88.92947357585207 },
+      titulo: 'San Pedro Nonualco'
+    },
+    {
+      id: 'mapMozote',
+      coords: { lat: 13.902058760836258, lng: -88.11251908066775 },
+      titulo: 'El Mozote'
+    },
+    {
+      id: 'mapPerquin',
+      coords: { lat: 13.957369949507543, lng: -88.15937789669528 },
+      titulo: 'Perquin'
+    },
+    {
+      id: 'mapRioSapo',
+      coords: { lat: 13.92377953080831, lng: -88.10457310005417 },
+      titulo: 'Rio el Sapo'
+    },
+    {
+      id: 'mapSanMiguel',
+      coords: { lat: 13.47929940673211, lng: -88.17839980866941 },
+      titulo: 'San Miguel'
+    },
+    {
+      id: 'mapLagunaOlomega',
+      coords: { lat: 13.310211918691737, lng: -88.02947315356032 },
+      titulo: 'Laguna Olomega'
+    },
+    {
+      id: 'mapPlayaCuco',
+      coords: { lat: 13.172606545654377, lng: -88.10442350259166 },
+      titulo: 'Playa Cuco'
     }
     
   ];

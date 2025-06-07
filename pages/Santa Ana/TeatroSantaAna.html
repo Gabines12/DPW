@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playa Costa del Sol</title>
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="icon" href="/assets/img/ico.ico">
+</head>
+
+<body>
+    <script src="/assets/js/navbar-loader.js"></script>
+
+    <div class="container mx-5">
+        <p>
+            <a href="/pages/Santa Ana/SantaAna.html" class="text-decoration-none text-secondary">
+                &lt; regresar a Santa Ana
+            </a>
+        </p>
+    </div>
+    <div class="text-decoration-none mx-5">
+        <h1>Teatro de Santa Ana</h1>
+    </div>
+    <br>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="mb-5">Acerca de</h2>
+                    <p>
+                        Es una de las joyas arquitectónicas y culturales más emblemáticas de El Salvador. Inaugurado en 1910, este majestuoso edificio de estilo ecléctico —que combina elementos neoclásicos, barrocos y art nouveau— está ubicado frente al Parque Libertad, en pleno corazón del centro histórico de Santa Ana, y ha sido testigo de más de un siglo de historia artística y social.    
+                    </p>
+                    <p>
+                        A lo largo de los años, el teatro ha albergado presentaciones de ópera, teatro clásico, danza, conciertos sinfónicos, así como eventos cívicos y educativos. Fue restaurado en los años 90 para devolverle su brillo original, y hoy continúa activo como centro cultural, albergando festivales, eventos nacionales e internacionales, y fortaleciendo la vida artística del occidente salvadoreño.
+                    </p>
+                    <a href="../../servicios.html" class="btn btn-dark btn-lg mt-4 fw-bold">Comprar un ticket</a>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div id="mapTeatroSantaAna" style="width:100%; height:300px; border-radius:12px;"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid collage-container">
+                <div class="mb-5">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="photo-item tall">
+                                <img src="/assets/img/Santa Ana/Teatro4.jpg" alt="Teatro">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro2.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro3.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro1.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro5.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro6.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Teatro7.jpg" alt="Teatro">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/footer-loader.js"></script>
+    <script src="/assets/js/config.js"></script>
+    <script src="/assets/js/mapaElImposible.js"></script>
+    <script>
+        const script = document.createElement("script");
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/collage.js"></script>
+
+
+
+</body>
+
+</html>

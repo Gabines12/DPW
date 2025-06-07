@@ -203,6 +203,21 @@ window.initMap = function () {
       id: 'mapPlayaCuco',
       coords: { lat: 13.172606545654377, lng: -88.10442350259166 },
       titulo: 'Playa Cuco'
+    },
+    { 
+      id: 'mapCatedralSantaAna',
+      coords: { lat: 13.995031906928936, lng: -89.55595759172677},
+      titulo: 'Catedral de Santa Ana'
+    },
+    {  
+      id: 'mapVolcanSantaAna',
+      coords: { lat: 13.85001052595528, lng: -89.62941661476849},
+      titulo: 'Volcan de Santa Ana'
+    },
+    {  
+      id: 'mapTeatroSantaAna',
+      coords: { lat: 13.995334108036108, lng: -89.55665548758988},
+      titulo: 'Catedral de Santa Ana'
     }
     
   ];

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playa Costa del Sol</title>
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="icon" href="/assets/img/ico.ico">
+</head>
+
+<body>
+    <script src="/assets/js/navbar-loader.js"></script>
+
+    <div class="container mx-5">
+        <p>
+            <a href="/pages/Santa Ana/SantaAna.html" class="text-decoration-none text-secondary">
+                &lt; regresar a Santa Ana
+            </a>
+        </p>
+    </div>
+    <div class="text-decoration-none mx-5">
+        <h1>Volcan de Santa Ana (Ilamatepeq) </h1>
+    </div>
+    <br>
+
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="mb-5">Acerca de</h2>
+                    <p>
+                        ste coloso presenta un majestuoso cráter de ∼1,5 km de diámetro que alberga una laguna turquesa de azufre, visible tras una intensa caminata de aproximadamente 3 km y 2 a 3 horas de ascenso desde el Parque Nacional Los Volcanes. Quienes alcanzan la cima se deleitan con vistas panorámicas del lago de Coatepeque, cerros vecinos como Izalco y el océano Pacífico en días claros
+                    </p>
+                    <p>
+                        El bosque nuboso y la diversidad ecológica acompañan la ruta, con más de 125 especies de árboles —orquídeas, bromelias, pino, liquenes— y fauna como coyotes, tigrillos y rapaces. Además, su pasado geológico fue reforzado tras erupciones históricas en 1904, 1920 y la más reciente en 2005, cuando expulsó ceniza, rocas y un lahar que obligó a evacuar poblaciones cercanas
+                    </p>
+                    <a href="../../servicios.html" class="btn btn-dark btn-lg mt-4 fw-bold">Comprar un ticket</a>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div id="mapVolcanSantaAna" style="width:100%; height:300px; border-radius:12px;"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid collage-container">
+                <div class="mb-5">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="photo-item tall">
+                                <img src="/assets/img/Santa Ana/Ilamatepeq2.jpg" alt="Ilamatepeq">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq4.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq3.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq1.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq5.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq6.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="photo-item short">
+                                        <img src="/assets/img/Santa Ana/Ilamatepeq7.jpg" alt="Ilamatepeq">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/js/footer-loader.js"></script>
+    <script src="/assets/js/config.js"></script>
+    <script src="/assets/js/mapaElImposible.js"></script>
+    <script>
+        const script = document.createElement("script");
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/collage.js"></script>
+
+
+
+</body>
+
+</html>

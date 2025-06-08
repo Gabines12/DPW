@@ -1,2 +1,2 @@
-[!IMPORTANT]
+> [!IMPORTANT]
 > Se acabó.
